@@ -1,4 +1,6 @@
 public class TreeTraversals{
+
+
     public class Node{
         private String data = null;
         private node leftchild;
@@ -37,9 +39,8 @@ public class TreeTraversals{
         public Node setRightChild(Node node){
             this.rightchild = node;
         }
-
-
     }
+
 
     public class Tree{
         private Node root;
@@ -102,8 +103,6 @@ public class TreeTraversals{
                 }
             }
         }
-
-        
     }
 
 
